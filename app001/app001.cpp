@@ -130,9 +130,16 @@ struct StudentManager : ObjectManagerBase<StudentData>
   }
 };
 
-// add live obj count
+// live/free obj:
+//    _allocateObject
+//    _deallocateObject
+//    _allocateObjects
+//    _deallocateAllObjects
 //
-//
+
+// name/id map:
+//    findObjectByRef
+//    findObjectByName
 //
 
 int main()
